@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+    
+    <h2>Fakultas Keguruan dan Ilmu Pendidikan</h2>
+    
+    <p>Pada Fakultas Keguruan dan Ilmu Pendidikan di Untirta terdapat beberapa prodi di dalamnya, antara lain:</p>
+
+    {% for judul in title %}
+        <li>{{ judul }}</li>
+    {% endfor %}
+
+{% endblock %}

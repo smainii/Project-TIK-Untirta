@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+    
+    <h2>Fakultas Ilmu Sosial dan Ekonomi</h2>
+    <p>Pada Fakultas Ilmu Sosial dan Ekonomi di Untirta terdapat beberapa prodi di dalamnya, yaitu:</p>
+
+    {% for judul in title %}
+        <li>{{ judul }}</li>
+    {% endfor %}
+    
+{% endblock %}

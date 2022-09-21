@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    
+    <h2>Fakultas Pertanian</h2>
+    <p>Pada Fakultas Pertanian di Untirta terdapat beberapa prodi di dalamnya, antara lain:</p>
+
+    {% for judul in title %}
+        <li>{{ judul }}</li>
+    {% endfor %}
+    
+{% endblock %}

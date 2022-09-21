@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+    <h2>Fakultas Kedokteran</h2>
+    <p>Pada Fakultas Kedokteran tidak hanya terdapat program S1 saja, tetapi ada program D3 juga. Untuk prodi pada FK diantaranya:</p>
+    
+    {% for judul in title %}
+        <li>{{ judul }}</li>
+    {% endfor %}
+    
+{% endblock %}
