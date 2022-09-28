@@ -3,12 +3,18 @@
 {% block content %}
 
 
-    
+    <br>
     <h2>Fakultas Ilmu Sosial dan Ekonomi</h2>
-    <p>Pada Fakultas Ilmu Sosial dan Ekonomi di Untirta terdapat beberapa prodi di dalamnya, yaitu:</p>
+    <br>
+    <span align="justify"><p>Pada Fakultas Ilmu Sosial dan Ekonomi di Untirta terdapat beberapa prodi di dalamnya, yaitu:</p>
+    <br>
 
     {% for judul in title %}
         <li>{{ judul }}</li>
+        <br>
     {% endfor %}
+    <br>
+    <br>
+    </span>
     
 {% endblock %}

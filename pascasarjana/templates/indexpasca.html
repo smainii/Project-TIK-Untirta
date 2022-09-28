@@ -3,12 +3,19 @@
 {% block content %}
 
 
-
+    <br>
     <h2>Pascasarjana</h2>
-    <p>Pada program Pascasarjana di Untirta terdapat beberapa prodi di dalamnya, antara lain:</p>
+    <br>
+    <span align="justify"><p>Di Untirta selain menawarkan program studi S1 dengan D3, tapi juga menawarkan studi lanjutan di tingkat S2 dan S3 yang diselenggarakan di fakultas maupun sekolah Pascasarjana. Berikut program studi yang ditawarkan Untirta bagi yang ingin melanjutkan pendidikannya, yaitu:</p>
+        <br>
 
-    {% for judul in title %}
-        <li>{{ judul }}</li>
-    {% endfor %}
+        {% for judul in title %}
+            <li>{{ judul }}</li>
+            <br>
+        {% endfor %}
+        <br>
+        <br>
+        
+    </span>
     
 {% endblock %}
